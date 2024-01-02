@@ -156,6 +156,19 @@ nav {
   }
 }
 /* hero styles */
+.background-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  mask-image: linear-gradient(to top, transparent, #212529);
+  /* For Webkit-based browsers (Safari, Chrome) */
+  -webkit-mask-image: linear-gradient(to top, transparent, #212529);
+}
+
 .hero-text {
   display: flex;
   font-family: "Share Tech Mono", monospace;

@@ -84,7 +84,7 @@ function App() {
           </motion.div>
         </section>
         <section id="blog">
-          <Heading firstWord="ex" secondWord="Activities" />
+          <Heading firstWord="ext" secondWord="Activities" />
           <div className="posts">
             {blogPosts.map((post, index) => (
               <BlogPost
